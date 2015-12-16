@@ -1,13 +1,10 @@
 package com.example;
 
-import org.apache.camel.model.rest.RestBindingMode;
-import org.apache.camel.spring.boot.FatJarRouter;
-import org.springframework.boot.autoconfigure.SpringBootApplication;
 
 import org.springframework.stereotype.Component;
-
+import org.apache.camel.builder.RouteBuilder;
 @Component
-public class AnotherRouter extends FatJarRouter {
+public class AnotherRouter extends RouteBuilder {
     
 
     @Override
